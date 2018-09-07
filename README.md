@@ -16,7 +16,7 @@ cat /path/to/cvi-pysng.tar | docker import  - cvi-pysng
 Run the image as:
 
 ```
-docker run --it --name cvi -p 8888:8888 -v /some/mount/:/pysangamam cvi-pysng bash
+docker run -it --name cvi -p 8888:8888 -v /some/mount/:/pysangamam cvi-pysng bash
 ```
 
 Mounting a volume is optional, but you may find it easier to make changes in files (vim is bundled in the container too).
