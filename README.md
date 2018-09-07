@@ -2,6 +2,8 @@
 
 Docker container for Pysangamam Workshop : _Computer Vision through the Ages_.
 
+You can install Docker CE for Linux or MacOS or use dockertools on Windows.
+
 ## Importing the Image
 
 Import the image as:
