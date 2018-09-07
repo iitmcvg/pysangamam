@@ -9,7 +9,7 @@ You can install Docker CE for Linux or MacOS or use dockertools on Windows.
 Import the image as:
 
 ```
-cat /path/to/cvi-pysng.gz | docker import  - cvi-pysng
+cat /path/to/cvi-pysng.tar | docker import  - cvi-pysng
 ```
 
 
